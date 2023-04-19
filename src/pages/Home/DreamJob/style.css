@@ -1,0 +1,83 @@
+.dream-wrapper{
+    width: 100%;
+    background-color: #f5f7f9;
+    
+}
+.top-wrapper{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.dream-desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #a5b4cb;
+    margin-top: 12px;
+}
+.dream-title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+    margin-right: 20px;
+}
+.dream-img{
+    max-width: 1400px;
+    background-image: url(/_next/static/media/howtobg.b585e889.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 100%;
+    padding: 64px 0;
+}
+.HowTo_infoContainer__8_Psm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.HowTo_leftSide__fCgE0 .HowTo_info__DibNn {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.HowTo_number__jA_17 {
+    font-style: normal;
+    display: inline-block;
+    border-right: 1px solid rgba(165,180,203,.24);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    color: #a5b4cb;
+    padding-right: 16px;
+}
+.HowTo_text___Zw_u {
+    max-width: 400px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #27292c;
+    margin-left: 16px;
+}
+
+.HowTo_rightSide__McpuC {
+    display: flex;
+    align-items: center;
+}
+.HowTo_imgLeft__SVmWb {
+    min-width: 280px;
+}
+
+@media screen and (max-width: 700px) {
+    HowTo_rightSide__McpuC {
+     display: none;
+    }
+  }

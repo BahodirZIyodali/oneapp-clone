@@ -1,0 +1,100 @@
+.find_title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+}
+.find_desc{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #7c8da6
+}
+.HeroBanner_jobForm__4jzpU{
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background-color: #f5f7f9;
+    border:1px solid #f3f3f3;
+   
+    border-radius:36px;
+    padding: 18px 20px;
+    margin: 36px auto 0;
+    z-index: 10;
+}
+.HeroBanner_jobFormBox__IjgXc{
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+.HeroBanner_jobFormBox__IjgXc .HeroBanner_searchIcon__Po2FJ {
+    display: inline-block;
+    background: transparent ;
+ 
+}
+.HeroBanner_jobFormInput__tpgne {
+    width: 100%;
+    color:#7c8da6;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+input {transition:color 1s;}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#7c8da6;transition:color 1s;
+}
+input::-moz-placeholder { /* Mozilla Firefox */
+    color:#ccc;transition:color 1s;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+    color:#ccc;transition:color 1s;
+}
+input:focus::-webkit-input-placeholder {color:#cccccc;}
+.style_orContainer__NJ1Zn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    color: #a5b4cb;
+    z-index: 1;
+}
+.style_orContainer__NJ1Zn:after, .style_orContainer__NJ1Zn:before {
+    content: "";
+    display: block;
+    width: 60px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.style_orContainer__NJ1Zn:before {
+    margin-right: 12px;
+}
+.style_orContainer__NJ1Zn::after {
+    margin-left: 12px;
+}
+.home_find_wrapper{
+    display: flex;
+   flex-direction: column;
+   text-align:center;
+}
+.find-btn{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111;
+    padding: 16px 28px;
+    background: #fff;
+    border: 1px solid #a5b4cb;
+    border-radius: 10px;
+    margin-top: 20px;
+}

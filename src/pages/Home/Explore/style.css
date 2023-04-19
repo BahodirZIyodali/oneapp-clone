@@ -1,0 +1,73 @@
+
+.explore-title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+}
+.explore-title span{
+    color: #3f8cff;
+}
+.svg-explore{
+    margin-left: -70px;
+}
+.explore-desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #a5b4cb;
+    margin-top: 12px
+}
+.btn-blue{
+background-color: #3f8cff;
+color: #fff;
+padding: 12px 20px;
+}
+.btn-blue:hover{
+background-color:#2f6bc4;
+color: #fff;
+}
+ .ExploreJobs_cardContainer__9Qx8G {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px;
+    gap: 32px;
+    margin-top: 48px;
+}
+@media (max-width: 1000px){
+ .ExploreJobs_cardContainer__9Qx8G {
+    grid-template-columns: 1fr 1fr;
+}
+.Card_container__GLlD_ {
+    max-width: unset;
+}
+}
+.Card_container__GLlD_:hover{
+  border:1px solid #3f8cff;
+}
+.Card_container__GLlD_ {
+    position: relative;
+    max-width: 380px;
+    padding: 24px;
+    background: #fff;
+    border: 1px solid rgba(165,180,203,.24);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Card_title__MKB0t {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.Card_description__JBddQ {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #a5b4cb;
+}
