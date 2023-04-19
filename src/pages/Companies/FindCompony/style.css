@@ -80,12 +80,17 @@
     box-shadow: 0 6px 12px -6px rgb(24 39 75 / 12%), 0 8px 24px -4px rgb(24 39 75 / 8%);
     border-radius: 8px;
     padding: 20px 24px;
+    
 }
 .card_cardheader__Vqio_ {
     padding: 12px 0 24px;
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+}
+.card_card__E68iI:hover{
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .card_footer__8dQn8 {
     display: flex;

@@ -49,6 +49,13 @@ const JobLists = () => {
     }
   };
 
+  // ======== Get the number of companies found ===========
+  const getCompaniesFound = () => {
+    const companies = jobData.map((job) => job.company);
+    const uniqueCompanies = [...new Set(companies)];
+    return uniqueCompanies.length;
+  };
+
   return (
     <section className="job__list mt-5">
       <div className="container">
@@ -56,7 +63,7 @@ const JobLists = () => {
           <div className="search__panel">
             <div className="search__panel-01">
               <span>
-                <i class="ri-search-line"></i>
+                <i className="ri-search-line"></i>
               </span>
               <input
                 type="text"
@@ -68,7 +75,7 @@ const JobLists = () => {
 
             <div className="search__panel-02">
               <span>
-                <i class="ri-map-pin-line"></i>
+                <i className="ri-map-pin-line"></i>
               </span>
               <input
                 type="text"
@@ -92,7 +99,6 @@ const JobLists = () => {
               </select>
             </div>
           </div>
-
           <div className="jobs__wrapper">
             {jobData
               ?.filter((job) => {
@@ -125,6 +131,7 @@ const JobLists = () => {
                 </div>
               ))}
           </div>
+
         </div>
       </div>
     </section>

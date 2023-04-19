@@ -1,0 +1,115 @@
+.hiring-title{
+    max-width: 670px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+    margin: auto auto 20px;
+    text-align: center;
+}
+.hiring-desc{
+    max-width: 670px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #7c8da6;
+    text-align: center;
+}
+.hiring-intro-cards{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 40px;
+    background: #fff;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0 4px 100px hsla(0,0%,79%,.2);
+    border-radius: 20px;
+    margin: 48px 0;
+}
+.hiring-intro-card{
+    margin-right: 40px;
+}
+.hiring-count{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+}
+.count-plus{
+        color: #3f8cff;
+}
+.hiring-card-title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #111;
+    margin-top: 6px;
+}
+.hiring-btn{
+    background: #111;
+    color: #fff!important;
+    border: 1px solid transparent!important;
+    margin-right: 16px;
+}
+
+/* img */
+
+.img-wrapper{
+    width: 100%;
+    background-image: url("https://oneapp.uz/_next/static/media/EmpImgBg.22343153.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 768px){
+.img-wrapper {
+    display: none;
+}}
+.hiring-img{
+    margin: auto;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    height: 800px;
+    object-fit: contain;
+}
+
+/* hero componies css */
+
+.hiring-hero{
+    width: 100%;
+    background: #fafafb;
+}
+.hiring-hero-wrapper{
+    max-width: 1050px;
+    text-align: center;
+    margin: auto;
+    padding: 96px 20px;
+}
+.hiring-hero-title{
+    max-width: 590px;
+    margin: auto auto 20px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -.02em;
+    color: #111;
+}
+.hiring-hero-desc{
+    max-width: 790px;
+    margin: auto auto 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #7c8da6;
+}
+.hiring-comp-logo{
+    object-fit: contain;
+    margin: 20px;
+
+}

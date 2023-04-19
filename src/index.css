@@ -165,6 +165,7 @@ p {
   padding: 30px;
   background: #fff;
   border-radius: 10px;
+  
 }
 
 .details__top {
@@ -299,4 +300,8 @@ p {
   .search__panel-02 {
     display: none;
   }
+}
+
+.mt-10{
+  margin-top: 100px;
 }

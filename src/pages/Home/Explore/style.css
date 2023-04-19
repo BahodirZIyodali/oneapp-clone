@@ -36,16 +36,22 @@ color: #fff;
     gap: 32px;
     margin-top: 48px;
 }
+
 @media (max-width: 1000px){
  .ExploreJobs_cardContainer__9Qx8G {
     grid-template-columns: 1fr 1fr;
 }
 .Card_container__GLlD_ {
     max-width: unset;
+    
 }
+
 }
 .Card_container__GLlD_:hover{
   border:1px solid #3f8cff;
+  transition: transform 0.5s ease;
+  transform: translateY(100%);
+  transform: scale(1.2);
 }
 .Card_container__GLlD_ {
     position: relative;

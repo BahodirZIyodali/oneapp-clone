@@ -4,7 +4,7 @@ import "./style.css";
 const index = () => {
   return (
     <div>
-      <nav className=" navbar navbar-expand-lg navbar-light bg-light wrapper">
+      <nav className=" navbar navbar-expand-lg navbar-light bg-light    ">
         <div className="container">
           <button
             className="navbar-toggler"
@@ -112,7 +112,7 @@ const index = () => {
                     <stop offset="1" stopColor="#3F8CFF"></stop>
                   </linearGradient>
                 </defs>
-              </svg>{" "}
+              </svg>
             </Link>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
@@ -121,6 +121,12 @@ const index = () => {
               <li className="nav-item">
               <Link to='/companies' className="nav-link">Companies</Link>
              
+              </li>
+              <li className="nav-item">
+              <Link to='/internship' className="nav-link">Internship Program</Link>
+              </li>
+              <li className="nav-item">
+              <Link to='/employer-home' className="nav-link">I'm Hiring</Link>
               </li>
             </ul>
           </div>

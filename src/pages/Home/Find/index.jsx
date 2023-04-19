@@ -8,7 +8,7 @@ const index = () => {
 
   useEffect(() => {
     const options = {
-      strings: ['Intern',"Team Lead","Designer","React"],
+      strings: ['Intern',"Team Lead","Junior", "Middle","Senior","React"],
       typeSpeed: 100,
       startDelay: 200,
       backDelay: 200,

@@ -1,14 +1,17 @@
 import React from "react";
 import "./style.css";
+import { Link } from 'react-router-dom';
 
+const images = [
+  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/netflix.png",
+  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/it-park.png",
+  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/najot-talim.png",
+  "https://res.cloudinary.com/one-app/image/fetch/f_auto,c_limit,w_128,q_auto/https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/dekos.png",
+  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/internation.png",
+  "https://res.cloudinary.com/one-app/image/fetch/f_auto,c_limit,w_128,q_auto/https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/erudit.png",
+  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/novalab.png",
+];
 const index = () => {
-  const colors = [
-    "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/najot-talim.png",
-    "https://res.cloudinary.com/one-app/image/fetch/f_auto,c_limit,w_128,q_auto/https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/dekos.png",
-    "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/internation.png",
-    "https://res.cloudinary.com/one-app/image/fetch/f_auto,c_limit,w_128,q_auto/https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/erudit.png",
-  ];
-
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
   const delay = 2500;
@@ -24,7 +27,7 @@ const index = () => {
       timeoutRef.current = setTimeout(
         () =>
           setIndex((prevIndex) =>
-            prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+            prevIndex === images.length - 1 ? 0 : prevIndex + 1
           ),
         delay
       );
@@ -41,7 +44,7 @@ const index = () => {
         <div className="slideshow ">
           <h1 className="comp_title ">
             Apply for jobs in over
-           <strong className="text-dark"> 20 companies</strong>
+            <strong className="text-dark"> 29 companies</strong>
             <span>
               <svg
                 width="24"
@@ -57,19 +60,19 @@ const index = () => {
               </svg>
             </span>
           </h1>
-          <div
+          <Link to='/companies'>    <div
             className="slideshowSlider "
             style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
           >
-            {colors.map((backgroundColor, index) => (
+            {images.map((background, index) => (
               <div className="slide" key={index}>
-                <img src={backgroundColor} alt="" />
+                <img src={background} alt="" />
               </div>
             ))}
-          </div>
+          </div></Link>
 
           <div className="slideshowDots">
-            {colors.map((_, idx) => (
+            {images.map((_, idx) => (
               <div
                 key={idx}
                 className={`slideshowDot${index === idx ? " active" : ""}`}

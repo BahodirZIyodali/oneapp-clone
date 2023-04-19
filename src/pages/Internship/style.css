@@ -1,0 +1,126 @@
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.tech-intr{
+    margin-bottom: 150px;
+}
+.tech{
+    
+    max-width: 500px;
+
+}
+.tech-title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+}
+.tech-desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #27292c;
+    margin-top: 28px;   
+    margin-bottom: 48px;
+   
+}
+
+.tech-btn{
+        padding: 16px 28px;
+}
+
+.tech-video{
+    max-width: 560px;
+}
+.tech-video-item{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .tech{
+   display: flex;
+   flex-direction: column;
+   justify-content: center ;    
+    }
+    .tech-video{
+        max-width: 560px;
+    } 
+    .tech-title{
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 120%;
+        letter-spacing: -.02em;
+        color: #111;
+    }
+}
+
+
+/* how to work css */
+
+.works-title{
+    max-width: 380px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -.02em;
+    color: #111;
+    margin-bottom: 28px;
+}
+.works-desc{
+    max-width: 480px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #27292c;
+    margin-bottom: 28px;
+}
+.works-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111;
+    padding-bottom: 3px;
+    border-bottom: 4px solid #111;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+
+}
+.works-img-wrap{
+    
+    position: relative;
+    max-width: 590px;
+    margin-left: 20px;
+
+
+}
+.works-img {
+width: 100%;
+object-fit: contain;
+transition: transform 0.3s ease-in-out;
+}
+
+.works-img:hover {
+transform: scale(1.1);
+transition-duration: 0.3s;
+}
+@media screen and (max-width:768px) {
+    .works{
+        display: flex;
+        flex-direction: column;
+        gap:100px
+    }
+    .works-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    }  
+    .works-desc{
+        font-size: 12px;
+    margin-bottom: 15px;
+    }
+}
+
