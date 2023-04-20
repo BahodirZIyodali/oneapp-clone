@@ -1,16 +1,9 @@
 import React from "react";
 import "./style.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-const images = [
-  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/netflix.png",
-  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/it-park.png",
-  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/najot-talim.png",
-  "https://res.cloudinary.com/one-app/image/fetch/f_auto,c_limit,w_128,q_auto/https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/dekos.png",
-  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/internation.png",
-  "https://res.cloudinary.com/one-app/image/fetch/f_auto,c_limit,w_128,q_auto/https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/erudit.png",
-  "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/novalab.png",
-];
+const images=["https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/najot-talim.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/novalab.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/lebazar.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/internation.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/erudit.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/dekos.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/space.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/impact.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/qalampir.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/rasta.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/qulix.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/cambridge.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/it-park.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/elma.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/express24.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/tass-vision.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/itechart.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/korzinka.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/ab-solutions.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/netflix.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/my-taxi.png"
+]
 const index = () => {
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
@@ -60,28 +53,20 @@ const index = () => {
               </svg>
             </span>
           </h1>
-          <Link to='/companies'>    <div
-            className="slideshowSlider "
-            style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-          >
-            {images.map((background, index) => (
-              <div className="slide" key={index}>
-                <img src={background} alt="" />
-              </div>
-            ))}
-          </div></Link>
-
-          <div className="slideshowDots">
-            {images.map((_, idx) => (
-              <div
-                key={idx}
-                className={`slideshowDot${index === idx ? " active" : ""}`}
-                onClick={() => {
-                  setIndex(idx);
-                }}
-              ></div>
-            ))}
-          </div>
+          <Link to="/companies">
+            {" "}
+            <div
+              className="slideshowSlider "
+              style={{   transform: `translate3d(${-index * 150}px, 0, 0)`,
+              transition: "transform ease-out 0.20s", }}
+            >
+              {images.map((background, index) => (
+                <div className="slide" key={index}>
+                  <img src={background} alt=""  width='200' />
+                </div>
+              ))}
+            </div>
+          </Link>
         </div>
       </div>
     </div>

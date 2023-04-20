@@ -28,7 +28,12 @@ video {
    
 }
 
+.tech-btn:hover{
+    color:aliceblue;
+        padding: 16px 28px;
+}
 .tech-btn{
+    color:aliceblue;
         padding: 16px 28px;
 }
 

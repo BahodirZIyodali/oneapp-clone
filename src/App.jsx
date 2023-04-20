@@ -8,6 +8,8 @@ import JobLists from './pages/Vacancies/JobLists';
 import JobDetails from './pages/Vacancies/JobDetails';
 import Internship from './pages/Internship';
 import Employer from './pages/Hiring'
+import Resume from './pages/Resume'
+import About from './pages/About'
 
 
 const App = () => {
@@ -21,6 +23,8 @@ const App = () => {
           <Route path="/companies" element={<Companies />} />
           <Route path="/internship" element={<Internship />} />
           <Route path="/employer-home" element={<Employer />} />
+          <Route path="/resume-builder" element={<Resume />} />
+          <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
 

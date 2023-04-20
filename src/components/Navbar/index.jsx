@@ -4,7 +4,7 @@ import "./style.css";
 const index = () => {
   return (
     <div>
-      <nav className=" navbar navbar-expand-lg navbar-light bg-light    ">
+      <nav className=" navbar navbar-expand-lg navbar-light bg-light     "  >
         <div className="container">
           <button
             className="navbar-toggler"
@@ -119,14 +119,13 @@ const index = () => {
              <Link to="/vacancies" className="nav-link">Vacancies</Link>
               </li>
               <li className="nav-item">
-              <Link to='/companies' className="nav-link">Companies</Link>
-             
-              </li>
-              <li className="nav-item">
               <Link to='/internship' className="nav-link">Internship Program</Link>
               </li>
               <li className="nav-item">
               <Link to='/employer-home' className="nav-link">I'm Hiring</Link>
+              </li>
+              <li className="nav-item">
+              <Link to='/resume-builder' className="nav-link">Resume Builder</Link>
               </li>
             </ul>
           </div>

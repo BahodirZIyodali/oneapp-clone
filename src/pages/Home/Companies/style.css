@@ -15,40 +15,10 @@
   }
   
   .slide {
+   margin-right: 100px;
     display: inline-block;
     height: 60px;
-    width:100%;
     text-align: center;
     border-radius: 40px;
   }
   
-  /* Buttons */
-  
-  .slideshowDots {
-    text-align: center;
-  }
-  
-  .slideshowDot {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 15px 7px 0px;
-    background-color: #c4c4c4;
-  }
-  
-  .slideshowDot.active {
-    background-color: #6a0dad;
-  }
-  .comp_title{
-    margin-left:100px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: -.02em;
-    color: #7c8da6;
-  }
-  .comp_title strong{
-    color:#000;
-  }

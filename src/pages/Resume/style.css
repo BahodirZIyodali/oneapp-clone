@@ -1,0 +1,226 @@
+.resume-intro-left{
+    max-width: 450px;
+}
+.resume-icon{
+    max-width: 100%;
+    vertical-align: middle!important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.resume-top-title{
+    margin-top: 15px;
+    padding: 7px 12px;
+    background: #f3f3f3;
+    border-radius: 100px;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+}
+
+.resume-title{
+    max-width: 410px;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+    margin: 40px 0;
+}
+.resume-title b{
+    font-weight: 500;
+}
+.resume-btn{
+    background: #3f8cff;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+    padding: 18px 24px;
+    border: none;
+}
+
+.resume-intro-left:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+.resume-intro-left img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* middle */
+
+
+.middle-left{
+    max-width: 520px;
+}
+.middle-title{
+    max-width: 410px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+    margin-bottom: 40px;
+}
+.middle-desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -.02em;
+    color: #a5b4cb;
+    margin-bottom: 40px;
+}
+.middle-card{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    background-color: #f5f7f9;
+    transition: .5s;
+    max-width: 280px;
+    width: 100%;
+    text-align: center;
+    padding: 40px 30px;
+    margin-right: 23px;
+    border-radius: 40px;
+    z-index: 0;
+}
+.middle-card:hover{
+   
+  transform: scale(0.9) rotate(5deg);
+}
+.middle-card-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #7c8da6;
+    transition: .5s;
+}
+.middle-card-desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #a5b4cb;
+    margin-top: 15px;
+}
+.middle-card-img{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:900px) {
+    .middle-wrapper{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 20px; 
+
+    }
+    .intro-wrapper{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 20px; 
+    }
+
+}
+
+/* bottom  */
+.bottom-wrapper{
+    max-width: 1200px;
+    margin: auto;
+    padding: 56px 0;
+}
+.bottom-title{
+max-width: 500px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+    margin-bottom: 40px;
+}
+.bottom-big-card{
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    min-height: 400px;
+    padding: 60px 0 0 50px;
+    background-color: #f5f7f9;
+    background-position: 50%;
+    border-radius: 40px;
+    margin-right: 24px;
+    overflow: hidden;
+}
+.bottom-big-title{
+    max-width: 420px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+    margin-bottom: 50px;
+}
+.bottom-big-img1{
+    position: absolute;
+    top: 272px;
+    right: 15%;
+    transform: rotate(-24deg);
+    z-index: 3;
+}
+.bottom-big-img2{
+    position: absolute;
+    top: 272px;
+    right: 10%;
+    transform: rotate(-20deg);
+    z-index: 2;
+}
+.bottom-big-img3{
+    position: absolute;
+    top: 282px;
+    right: 5%;
+    transform: rotate(-15deg);
+    z-index: 1;
+}
+.bottom-big-img1:hover{
+ transform: rotate(-1deg); 
+}
+.bottom-card{
+    position: relative;
+    max-width: 280px;
+    min-width: 280px;
+    height: 400px;
+    background-color: #f5f7f9;
+    border-radius: 40px;
+    width: 100%;
+    background-position: 50%;
+    padding: 60px 0 0 60px;
+    overflow: hidden;
+    z-index: 0;
+}
+.bottom-card-desc{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #111;
+}
+.bottom-card-span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+    color: #a5b4cb;
+}
+.bottom-card-img{
+    position: absolute;
+    transform: rotate(-6deg);
+    top: 137px;
+    right: -8%;
+}

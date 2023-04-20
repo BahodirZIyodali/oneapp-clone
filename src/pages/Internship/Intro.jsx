@@ -9,8 +9,10 @@ const Intro = () => {
          <h1 className='tech-title'>Tech Internship 2023</h1>
           <p className='tech-desc'>Program designed to provide junior professionals with hands-on experience in tech companies.</p>
          <div className='d-flex gap-3 '>
-         <button className='btn btn-primary  rounded-3 tech-btn'><Link to="/vacancies">Browse Internship</Link></button>
-          <button className='btn btn-black rounded-3'>I'm Hiring</button>
+         <Link to="/vacancies"> <button className='btn btn-blue  rounded-3 tech-btn'>Browse Internship</button></Link>
+         <Link to="/employer-home">
+         <button className='btn btn-black tech-btn rounded-3'>I'm Hiring</button>
+         </Link>
          </div>
          </div>
         <div className='tech-video'>

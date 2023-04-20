@@ -1,0 +1,31 @@
+.about{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    padding: 40px 0px;
+    font-size: 32px;
+    line-height: 37px;
+    color: rgb(36, 36, 35);
+}
+.about-bg{
+    background-color: #F1F1F1;
+}
+.about-text{
+    font-weight: 500;
+    padding: 26px 0px;
+    color: rgb(65, 66, 77);
+}
+.about-title{
+    font-size: 32px;
+    line-height: 120%;
+    color: rgb(65, 66, 77);
+}
+.about-desc{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 400;
+}

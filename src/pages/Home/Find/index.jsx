@@ -2,6 +2,7 @@ import React,{useRef,useEffect} from 'react';
 import "./style.css";
 import Typed from 'typed.js'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 const index = () => {
    const inputRef = useRef(null);
   let typed = null;
@@ -47,7 +48,7 @@ const index = () => {
   name="searchbox"  /></div>
      </form>
        <div className="style_orContainer__NJ1Zn">or</div>
-        <a href="#!"> <button className=' find-btn'>I’m Hiring</button></a>
+        <Link to="/employer-home"> <button className=' find-btn'>I’m Hiring</button></Link>
        </div>
       </div>
       </div>
