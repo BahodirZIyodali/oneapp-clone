@@ -14,7 +14,6 @@ import Articles from './pages/Articles'
 import Faq from './pages/Faq'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 
-
 const App = () => {
   return (
     <>
