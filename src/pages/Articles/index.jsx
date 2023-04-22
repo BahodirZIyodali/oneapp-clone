@@ -1,12 +1,13 @@
 import React from 'react'
-import Fore from './Fore'
-import Aft from './Aft'
+// import Fore from './Fore'
+// import Aft from './Aft'
 
 const index = () => {
   return (
     <>
-    <Fore/>
-     <Aft/>
+    {/* <Fore/>
+     <Aft/> */}
+     ok
     </>
   )
 }
