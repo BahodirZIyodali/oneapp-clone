@@ -1,0 +1,29 @@
+.pp-head{
+    padding: 32px 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.pp-title{
+    font-style: normal;
+    font-weight: 0;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3f8cff;
+}
+
+.pp-span{
+    height: 38px;
+    width: 80px;
+}
+
+.pp-body{
+    background-color: #F1F1F1;
+    padding: 40px 30px 50px 60px;
+}

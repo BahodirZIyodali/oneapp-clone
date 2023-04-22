@@ -1,5 +1,6 @@
 import React from "react";
 import jobs from "../../../data/job";
+import {IoIosArrowBack} from 'react-icons/io'
 
 import { useNavigate, useParams } from "react-router-dom";
 
@@ -18,7 +19,7 @@ const JobDetails = () => {
   return (
     <section className="mt-5">
       <div className="container">
-       <button className="details__top mx-auto btn btn-outline-primary  " onClick={handleGoBack} >go back</button>
+       <button className="details__top backButton  " onClick={handleGoBack} > <span><IoIosArrowBack size={20}/></span> go back</button>
         <div className="details__wrapper">
           <div className="details__top">
             <div>

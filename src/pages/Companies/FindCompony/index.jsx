@@ -285,7 +285,7 @@ const index = () => {
                   <div className="card_location__uwUva">
                     {c.location}
                     <div className="card_jobNums__eGM4c">
-                      <strong className="text-danger">{c.vac}</strong> Vacancies
+                      <strong className="text-danger"> {c.vac}</strong> jobs
                     </div>
                   </div>
                 </div>

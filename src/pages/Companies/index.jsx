@@ -6,8 +6,6 @@ const index = () => {
     <div>
         <AllComp/>   
         <FindComp/>
-      
-
     </div>
   )
 }

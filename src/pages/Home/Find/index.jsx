@@ -1,7 +1,7 @@
 import React,{useRef,useEffect} from 'react';
+import {CiSearch} from 'react-icons/ci'
 import "./style.css";
 import Typed from 'typed.js'
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 const index = () => {
    const inputRef = useRef(null);
@@ -41,14 +41,16 @@ const index = () => {
        <h1 className='text-center mt-5 find_title'>Find the job you love</h1>
        <p className='text-center text-secondary find_desc'>OneApp - fastest way to land your dream job!</p>
        <form className="HeroBanner_jobForm__4jzpU"><div className="HeroBanner_jobFormBox__IjgXc">
-       {/* <i class="fa-regular fa-magnifying-glass " style={{fontSize:"24px" ,color:"rgb(63, 140, 255)"}}></i> */}
+        <CiSearch size={30} style={{fontSize:"24px" ,color:"rgb(63, 140, 255)"}}/>
        <input className="HeroBanner_jobFormInput__tpgne" type="text" id="searchbox"             ref={inputRef}
         onFocus={handleFocus}
         onBlur={handleBlur}
   name="searchbox"  /></div>
      </form>
        <div className="style_orContainer__NJ1Zn">or</div>
-        <Link to="/employer-home"> <button className=' find-btn'>I’m Hiring</button></Link>
+       <div className=''>
+       <button className=' find-btn'>  <Link to="/employer-home">I’m Hiring </Link></button>
+       </div>
        </div>
       </div>
       </div>

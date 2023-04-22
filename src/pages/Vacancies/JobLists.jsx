@@ -49,12 +49,7 @@ const JobLists = () => {
     }
   };
 
-  // ======== Get the number of companies found ===========
-  const getCompaniesFound = () => {
-    const companies = jobData.map((job) => job.company);
-    const uniqueCompanies = [...new Set(companies)];
-    return uniqueCompanies.length;
-  };
+ 
 
   return (
     <section className="job__list mt-5">

@@ -54,7 +54,6 @@ const index = () => {
             </span>
           </h1>
           <Link to="/companies">
-            {" "}
             <div
               className="slideshowSlider "
               style={{   transform: `translate3d(${-index * 150}px, 0, 0)`,

@@ -305,3 +305,20 @@ p {
 .mt-10{
   margin-top: 100px;
 }
+
+
+.backButton {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #41424d;
+  background-color: rgba(165,180,203,.239);
+  border-radius: 18px;
+  transition: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 16px;
+}

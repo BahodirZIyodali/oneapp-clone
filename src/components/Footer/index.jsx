@@ -137,24 +137,24 @@ const index = () => {
                   Company
                 </h6>
                 <p>
-                  <a href="#!" className="text-secondary">
+                  <Link to="/about" className="text-secondary">
                     About us
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-secondary">
-                    Articles
-                  </a>
+                  <Link to="/articles" className="text-secondary">
+                  Articles
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-secondary">
-                    FAQ
-                  </a>
+                  <Link to="/faq" className="text-secondary">
+                  Faq
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-secondary">
-                    Privacy Policy
-                  </a>
+                  <Link to="/privacy-policy" className="text-secondary">
+                  Privacy Policy
+                  </Link>
                 </p>
               </div>
 

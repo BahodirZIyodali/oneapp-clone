@@ -49,9 +49,7 @@ color: #fff;
 }
 .Card_container__GLlD_:hover{
   border:1px solid #3f8cff;
-  transition: transform 0.5s ease;
-  transform: translateY(100%);
-  transform: scale(1.2);
+
 }
 .Card_container__GLlD_ {
     position: relative;

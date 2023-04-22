@@ -16,7 +16,7 @@ const index = () => {
             </p>
           </div>
           <a href="#">
-            <button className="btn btn-blue">Create a profile</button>
+            <button className="btn btn-blue rounded-5">Create a profile</button>
           </a>
         </div>
         <div className="HowTo_infoContainer__8_Psm flex flex-wrap ">
