@@ -78,11 +78,15 @@ const JobLists = () => {
     if (e.keyCode === 13) {
       e.preventDefault(); // Prevent form submission
       locationSearchHandler(); // Call locationSearchHandler function
-      positionOrCompSearchHandler()
-      
     }
   };
   
+  const handleKeyPress2=(e)=>{
+    if(e.keyCode===13){
+      e.preventDefault()
+      positionOrCompSearchHandler()
+    }
+  }
  
 
   return (
@@ -105,7 +109,7 @@ const JobLists = () => {
                 type="text"
                 placeholder="Search by title, companies"
                 value={searchTerm}
-                onKeyDown={handleKeyPress}
+                onKeyDown={handleKeyPress2}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
             </div>
