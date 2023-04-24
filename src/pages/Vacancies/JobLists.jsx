@@ -1,15 +1,24 @@
-import React, { useState } from "react";
-
-import jobs from "../../../data/job";
+import React, { useState ,useEffect} from "react";
+import jobs from './data.json'
+import { Spinner } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const JobLists = () => {
-  const [jobData, setJobData] = useState(jobs);
-
+  const [jobData, setJobData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [searchByLocation, setSearchByLocation] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   const searchTermValue = searchTerm.toLowerCase();
+  useEffect(() => {
+    fetch("https://courageous-lime-betta.cyclic.app/vacancies")
+      .then((response) => response.json())
+      .then((data) => {
+        setJobData(data);
+        setIsLoading(false);
+      });
+
+  }, []);
 
   //   ======== search data by location =====
 
@@ -37,10 +46,26 @@ const JobLists = () => {
     } else if (filterValue === "contract") {
       const filteredData = jobs.filter((job) => job.contract === "Contract");
       setJobData(filteredData);
-    } else {
+    } 
+    else if (filterValue === "apprenticeship") {
+      const filteredData = jobs.filter((job) => job.contract === "Apprenticeship");
+      setJobData(filteredData);
+    }
+    else if (filterValue === "self-employed") {
+      const filteredData = jobs.filter((job) => job.contract === "Self-employed");
+      setJobData(filteredData);
+    }  else if (filterValue === "seasonal") {
+      const filteredData = jobs.filter((job) => job.contract === "Seasonal");
+      setJobData(filteredData);
+    }  else if (filterValue === "internship") {
+      const filteredData = jobs.filter((job) => job.contract === "Internship");
+      setJobData(filteredData);
+    }else {
+      
       setJobData(jobs);
     }
   };
+
 
   const handleKeyPress = (e) => {
     if (e.keyCode === 13) {
@@ -53,7 +78,14 @@ const JobLists = () => {
 
   return (
     <section className="job__list mt-5">
-      <div className="container">
+      <div className="container">        {isLoading ? (
+       <div className="text-center mt-5">
+       <Spinner animation="border" role="status">
+         <span className="visually-hidden">Loading...</span>
+       </Spinner>
+     </div>
+        ) : (
+
         <div className="job__list__wrapper">
           <div className="search__panel">
             <div className="search__panel-01">
@@ -91,6 +123,10 @@ const JobLists = () => {
                 <option value="part-time">Part Time</option>
                 <option value="freelance">Freelance</option>
                 <option value="contract">Contract</option>
+                <option value="apprenticeship">Apprenticeship</option>
+                <option value="self-employed">Self-employed</option>
+                <option value="seasonal">Seasonal</option>
+                <option value="internship"> Internship</option>
               </select>
             </div>
           </div>
@@ -106,7 +142,7 @@ const JobLists = () => {
               })
               .map((item) => (
                 <div className="job__item" key={item.id}>
-                  <img src={item.logo} alt="" />
+                  <img src={item.logo} style={{borderRadius:"50%", objectFit:"cover "}} alt="" />
 
                   <div className="job__content">
                     <h6>
@@ -127,7 +163,7 @@ const JobLists = () => {
               ))}
           </div>
 
-        </div>
+        </div>)}
       </div>
     </section>
   );

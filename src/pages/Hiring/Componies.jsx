@@ -1,9 +1,14 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import { Link } from 'react-router-dom'
-const image=["https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/najot-talim.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/novalab.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/lebazar.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/internation.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/erudit.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/dekos.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/space.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/impact.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/qalampir.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/rasta.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/qulix.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/cambridge.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/it-park.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/elma.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/express24.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/tass-vision.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/itechart.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/korzinka.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/ab-solutions.png","	https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/netflix.png","https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/my-taxi.png"
-]
+
 const Componies = () => {
-  const [imgData,setImgData]=React.useState(image)
+  const [imgData,setImgData]=useState([])
+  
+  useEffect(() => {
+    fetch("https://courageous-lime-betta.cyclic.app/partner")
+      .then((response) => response.json())
+      .then((data) => setImgData(data));
+  }, []);
   return (
     <div className='hiring-hero'>
      <div className='container'>

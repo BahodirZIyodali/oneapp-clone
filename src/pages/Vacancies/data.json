@@ -1,0 +1,683 @@
+[
+  {
+    "id": 1,
+    "companySite": "#",
+    "company": "Photosnap",
+    "logo": "companys/photosnap.svg",
+    "position": "Senior Frontend Developer",
+    "postedAt": "1d ago",
+    "contract": "Full Time",
+    "location": "United State",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "companySite": "#",
+    "company": "Manage",
+    "logo": "companys/manage.svg",
+    "position": "Fullstack Developer",
+    "postedAt": "1d ago",
+    "contract": "Part Time",
+    "location": "United Kingdom",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "companySite": "#",
+    "company": "Account",
+    "logo": "companys/account.svg",
+    "position": "Junior Frontend Developer",
+    "postedAt": "2d ago",
+    "contract": "Part Time",
+    "location": "Japan",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "companySite": "#",
+    "company": "MyHome",
+    "logo": "companys/myhome.svg",
+    "position": "Desktop Support Manager",
+    "postedAt": "5d ago",
+    "contract": "Contract",
+    "location": "Germany",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "companySite": "#",
+    "company": "Loop Studios",
+    "logo": "companys/loop-studios.svg",
+    "position": "Remote DevOps Engineer",
+    "postedAt": "1w ago",
+    "contract": "Part Time",
+    "location": "Remote",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "companySite": "#",
+    "company": "FaceIt",
+    "logo": "companys/faceit.svg",
+    "position": "Senior Application Engineer",
+    "postedAt": "2w ago",
+    "contract": "Full Time",
+    "location": "United State",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "companySite": "#",
+    "company": "Shortly",
+    "logo": "companys/shortly.svg",
+    "position": "Technical Lead Engineer",
+    "postedAt": "2w ago",
+    "contract": "Full Time",
+    "location": "United Kingdom",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "companySite": "#",
+    "company": "Insure",
+    "logo": "companys/insure.svg",
+    "position": "App and Website Designer",
+    "postedAt": "2w ago",
+    "contract": "Freelance",
+    "location": "World Wide",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "companySite": "#",
+    "company": "Eyecam Co.",
+    "logo": "companys/eyecam-co.svg",
+    "position": "IOS Engineer",
+    "postedAt": "3w ago",
+    "contract": "Full Time",
+    "location": "United State",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "companySite": "#",
+    "company": "The Air Filter Company",
+    "logo": "companys/the-air-filter-company.svg",
+    "position": "Front-end Dev",
+    "postedAt": "1mo ago",
+    "contract": "Part Time",
+    "location": "Worldwide",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "companySite": "https://www.instagram.com/",
+    "company": "Instagram",
+    "logo": "https://w7.pngwing.com/pngs/284/477/png-transparent-computer-icons-graphy-instagram-logo-instagram-logo-miscellaneous-text-trademark.png",
+    "position": "Software Engineer",
+    "postedAt": "2sec ago",
+    "contract": "Part Time",
+    "location": "United State",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "companySite": "#",
+    "company": "Instagram",
+    "logo": "https://w7.pngwing.com/pngs/284/477/png-transparent-computer-icons-graphy-instagram-logo-instagram-logo-miscellaneous-text-trademark.png",
+    "position": "Front-end Dev",
+    "postedAt": "3 days ago",
+    "contract": "Freelance",
+    "location": "United Kingdom",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "companySite": "#",
+    "company": "Salomon",
+    "logo": "https://vailskibase.com/wp-content/uploads/2021/09/Salomon-logo.png",
+    "position": "Java Developer",
+    "postedAt": "19 days ago",
+    "contract": "Apprenticeship",
+    "location": "Japan",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "companySite": "#",
+    "company": "Loop Studios",
+    "logo": "https://i.ya-wd.com/images/s-logo-png-3.png",
+    "position": "Javascript Developer",
+    "postedAt": "3 month ago",
+    "contract": "Self-employed",
+    "location": "United Kingdom",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "companySite": "#",
+    "company": "Lpar Devs ",
+    "logo": "https://i.pinimg.com/originals/79/0a/a9/790aa9aad0733870d211dd6425668489.png",
+    "position": "Backend Developer",
+    "postedAt": "2 days ago",
+    "contract": "Seasonal",
+    "location": "France",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "companySite": "#",
+    "company": "Circle Edu",
+    "logo": "https://www.kindpng.com/picc/m/433-4335310_total-logo-energia-download-logos-blue-red-and.png",
+    "position": "Fullstack Developer",
+    "postedAt": "4 months ago",
+    "contract": "Full Time",
+    "location": "Portugal",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "companySite": "#",
+    "company": "Mars",
+    "logo": "https://www.crsnacking.com/site/assets/files/3167/mars-logo-2002-present.jpg",
+    "position": "Front-end Dev",
+    "postedAt": "9 days ago",
+    "contract": "Internship",
+    "location": "Uzbekistan",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "companySite": "#",
+    "company": "Tura Top",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/be/Chigai_kuginuki.png",
+    "position": "Backend Developer",
+    "postedAt": "8 minutes ago",
+    "contract": "Self-employed",
+    "location": "Russia",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "companySite": "#",
+    "company": "Instagram",
+    "logo": "https://w7.pngwing.com/pngs/284/477/png-transparent-computer-icons-graphy-instagram-logo-instagram-logo-miscellaneous-text-trademark.png",
+    "position": "Backend Developer",
+    "postedAt": "3 days ago",
+    "contract": "Contract",
+    "location": "United Kingdom",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "companySite": "https://www.amazon.com/",
+    "company": "Amazon",
+    "logo": "https://cdn.freebiesupply.com/logos/large/2x/amazon-dark-logo-png-transparent.png",
+    "position": "Data Science",
+    "postedAt": "5 days ago",
+    "contract": "Internship",
+    "location": "United Kingdom",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+
+    "responsibility": {
+      "resTitle":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  }
+ 
+]
