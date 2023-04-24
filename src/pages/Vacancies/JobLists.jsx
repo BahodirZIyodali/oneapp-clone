@@ -1,79 +1,88 @@
 import React, { useState ,useEffect} from "react";
-import jobs from './data.json'
 import { Spinner } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const JobLists = () => {
+  const [originalData, setOriginalData] = useState([]);
   const [jobData, setJobData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [searchByLocation, setSearchByLocation] = useState("");
   const [isLoading, setIsLoading] = useState(true);
 
   const searchTermValue = searchTerm.toLowerCase();
+  
   useEffect(() => {
     fetch("https://courageous-lime-betta.cyclic.app/vacancies")
       .then((response) => response.json())
       .then((data) => {
+        setOriginalData(data);
         setJobData(data);
         setIsLoading(false);
       });
-
   }, []);
-
-  //   ======== search data by location =====
-
+  
+  // ======== search data by location =====
+  
   const locationSearchHandler = () => {
-    const filteredData = jobs.filter((job) =>
+    const filteredData = originalData.filter((job) =>
       job.location.toLowerCase().includes(searchByLocation.toLowerCase())
     );
-    
+  
     setJobData(filteredData);
   };
-
+  const positionOrCompSearchHandler = () => {
+    const filteredData = originalData.filter((job) =>
+      job.position.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      job.company.toLowerCase().includes(searchTerm.toLowerCase()) 
+    );
+  
+    setJobData(filteredData);
+  };
+  
   // ======== Filter data by part-time, full-time, freelance etc======
   const filterJobData = (e) => {
     const filterValue = e.target.value;
-
+  
+    let filteredData;
+  
     if (filterValue === "full-time") {
-      const filteredData = jobs.filter((job) => job.contract === "Full Time");
-      setJobData(filteredData);
+      filteredData = originalData.filter((job) => job.contract === "Full Time");
     } else if (filterValue === "part-time") {
-      const filteredData = jobs.filter((job) => job.contract === "Part Time");
-      setJobData(filteredData);
+      filteredData = originalData.filter((job) => job.contract === "Part Time");
     } else if (filterValue === "freelance") {
-      const filteredData = jobs.filter((job) => job.contract === "Freelance");
-      setJobData(filteredData);
+      filteredData = originalData.filter((job) => job.contract === "Freelance");
     } else if (filterValue === "contract") {
-      const filteredData = jobs.filter((job) => job.contract === "Contract");
-      setJobData(filteredData);
-    } 
-    else if (filterValue === "apprenticeship") {
-      const filteredData = jobs.filter((job) => job.contract === "Apprenticeship");
-      setJobData(filteredData);
+      filteredData = originalData.filter((job) => job.contract === "Contract");
+    } else if (filterValue === "apprenticeship") {
+      filteredData = originalData.filter((job) => job.contract === "Apprenticeship");
+    } else if (filterValue === "self-employed") {
+      filteredData = originalData.filter((job) => job.contract === "Self-employed");
+    } else if (filterValue === "seasonal") {
+      filteredData = originalData.filter((job) => job.contract === "Seasonal");
+    } else if (filterValue === "internship") {
+      filteredData = originalData.filter((job) => job.contract === "Internship");
+    } else {
+      filteredData = originalData;
     }
-    else if (filterValue === "self-employed") {
-      const filteredData = jobs.filter((job) => job.contract === "Self-employed");
-      setJobData(filteredData);
-    }  else if (filterValue === "seasonal") {
-      const filteredData = jobs.filter((job) => job.contract === "Seasonal");
-      setJobData(filteredData);
-    }  else if (filterValue === "internship") {
-      const filteredData = jobs.filter((job) => job.contract === "Internship");
-      setJobData(filteredData);
-    }else {
-      
-      setJobData(jobs);
+  
+    if (searchByLocation) {
+      filteredData = filteredData.filter((job) =>
+        job.location.toLowerCase().includes(searchByLocation.toLowerCase())
+      );
     }
+  
+    setJobData(filteredData);
   };
-
-
+  
   const handleKeyPress = (e) => {
     if (e.keyCode === 13) {
       e.preventDefault(); // Prevent form submission
       locationSearchHandler(); // Call locationSearchHandler function
+      positionOrCompSearchHandler()
+      
     }
   };
-
+  
  
 
   return (
@@ -96,6 +105,7 @@ const JobLists = () => {
                 type="text"
                 placeholder="Search by title, companies"
                 value={searchTerm}
+                onKeyDown={handleKeyPress}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
             </div>
@@ -130,14 +140,17 @@ const JobLists = () => {
               </select>
             </div>
           </div>
+          <h3 className="companies_searchResult__jm93C">
+          <span className="found-res">Founded jobs:  {jobData.length}</span>
+        </h3>
           <div className="jobs__wrapper">
             {jobData
               ?.filter((job) => {
                 if (searchTerm === "") return job;
                 if (
                   job.position.toLowerCase().includes(searchTermValue) ||
-                  job.company.toLowerCase().includes(searchTermValue)
-                )
+                  job.company.toLowerCase().includes(searchTermValue)  
+                  )
                   return job;
               })
               .map((item) => (

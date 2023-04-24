@@ -17,13 +17,13 @@ const index = () => {
         setCompData(data);
         setIsLoading(false);
       });
-  }, []);
+  }, [companyName,location]);
 
   const handleSearch = (e) => {
     e.preventDefault();
 
     // Filter companies based on company name and location
-    const filteredCompanies = companies.filter(
+    const filteredCompanies = compData.filter(
       (c) =>
         c.company.toLowerCase().includes(companyName.toLowerCase()) &&
         c.location.toLowerCase().includes(location.toLowerCase())
