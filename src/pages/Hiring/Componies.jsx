@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 const img=[
   "https://onapplyimagesbucket.s3.ap-south-1.amazonaws.com/partners/najot-talim.png",
