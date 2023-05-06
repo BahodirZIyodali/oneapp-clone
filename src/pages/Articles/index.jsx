@@ -10,6 +10,7 @@ const index = () => {
       .then((data) => {
         setArticleData(data);
         setIsLoading(false);
+        console.log(data)
       });
   }, []);
 
@@ -21,20 +22,17 @@ const index = () => {
           {articleData.map((article) => {
             return (
               <div className="article-card mb-5" key={article.id}>
-                <a href={article.img} target="_blank">
                   <img
                     className="article-img object-cover"
-                    src={article.image}
+                    src={article.img}
                     alt=""
+                  height='300'
                   />
-                </a>
                 <div className="article-parag">
-                  <a target="_blank" href={article.img}>
                     <h1 className="article-title">{article.title}</h1>
-                  </a>
                   <div className="article-bottom">
                     <img
-                      src={article.authorImage}
+                      src={article.authorImg}
                       className="rounded-5"
                       alt=""
                     />
