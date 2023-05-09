@@ -9,7 +9,8 @@ const index = () => {
           <div className="container text-center text-md-start mt-5">
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4 d-flex align-item-center mt-5">
+               <Link to='/'>
+               <h6 className="text-uppercase fw-bold mb-4 d-flex align-item-center mt-5">
                   <svg
                     width="132"
                     height="45"
@@ -104,6 +105,7 @@ const index = () => {
                     </defs>
                   </svg>
                 </h6>
+               </Link>
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
