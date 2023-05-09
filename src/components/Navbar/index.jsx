@@ -131,36 +131,6 @@ const index = () => {
           </div>
           <div className="d-flex align-items-center">
             <button className="btn btn-primary mx-3">Log in</button>
-            <div className="dropdown">
-              <a
-                className="dropdown-toggle d-flex align-items-center hidden-arrow me-3 text-secondary"
-                href="#"
-                id="navbarDropdownMenuAvatar"
-                role="button"
-                data-mdb-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <span className="me-1">
-                  <i className="fas fa-globe"></i>
-                </span>
-                EN
-              </a>
-              <ul
-                className="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdownMenuAvatar"
-              >
-                <li>
-                  <a className="dropdown-item text-secondary" href="#">
-                    Ru
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item text-secondary" href="#">
-                    UZ
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </nav>
