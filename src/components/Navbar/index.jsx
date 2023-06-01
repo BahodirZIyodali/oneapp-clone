@@ -1,8 +1,9 @@
-import React from "react";
+import React  ,{useState}from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 const index = () => {
-  return (
+  const token = localStorage.getItem('token');
+    return (
     <div>
       <nav className=" navbar navbar-expand-lg navbar-light bg-light     "  >
         <div className="container">
@@ -130,7 +131,11 @@ const index = () => {
             </ul>
           </div>
           <div className="d-flex align-items-center">
-            <button className="btn btn-primary mx-3">Log in</button>
+         {token? 
+         <Link to=''>  <button className="btn btn-success mx-3">u logged</button></Link>
+         :
+         <Link to='/register'>  <button className="btn btn-primary mx-3">Log in</button></Link> 
+    }  
           </div>
         </div>
       </nav>

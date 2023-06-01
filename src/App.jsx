@@ -18,12 +18,7 @@ import Register from './pages/Register';
 const App = () => {
   const [hasToken, setHasToken] = useState(false);
 
-  // useEffect(() => {
-  //   const token = localStorage.getItem('token');
-  //   if (token) {
-  //     setHasToken(true);
-  //   }
-  // }, []);
+
 
   return (
     <>

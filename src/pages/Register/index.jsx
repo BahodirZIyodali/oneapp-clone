@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const AuthPage = () => {
-  const [name, setName] = useState('');
+  const [username, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isRegister, setIsRegister] = useState(false);
@@ -20,14 +20,49 @@ const AuthPage = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
     if (isRegister) {
-      // handle register form submission
-      console.log('register form submitted');
-    } else {
-      // handle login form submission
-      console.log('login form submitted');
+      fetch('https://oneapp-register.onrender.com/register', {
+        method: 'POST',
+        body: JSON.stringify({
+          user_name:   username,
+          email: email,
+          user_password:  password
+        }),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+        },
+      })
+      .then((response) => response.json())
+      .then((data) => {
+        alert('Registration successful');
+        localStorage.setItem('token', data.token);
+      })
+      .catch((error) => {
+        console.error('Registration failed:', error);
+      });
+    } 
+    else {
+      fetch('https://oneapp-register.onrender.com/login', {
+        method: 'POST',
+        body: JSON.stringify({
+          email: email,
+          user_password:  password
+        }),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+        },
+      })
+      .then((response) => response.json())
+      .then((data) => {
+        alert('Login successful');
+      })
+      .catch((error) => {
+        console.error('Login failed:', error);
+      });
     }
+    
+
+    
   };
 
   return (
@@ -44,7 +79,7 @@ const AuthPage = () => {
                   id="name"
                   name="name"
                   className="form-control"
-                  value={name}
+                  value={username}
                   onChange={handleNameChange}
                   required
                 />
