@@ -12,7 +12,7 @@ const AuthPage = () => {
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
-  };
+  };  
 
   const handlePasswordChange = (event) => {
     setPassword(event.target.value);
